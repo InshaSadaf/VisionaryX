@@ -144,8 +144,8 @@ export default function Landing() {
       <footer className="border-t border-border px-5 md:px-8 py-6 flex flex-col md:flex-row items-center gap-2 md:gap-0 md:justify-between bg-base text-center md:text-left">
         <div className="text-sm font-extrabold">Visionary<span className="text-primary">X</span></div>
         <div className="text-[10px] text-dim">
-          Crafted with purpose by{" "}
-          <span className="text-secondary font-semibold">Siddhant Thakur</span>
+          © {new Date().getFullYear()}{" "}
+          <span className="text-secondary font-semibold">VisionaryX</span>
           {" "}· FastAPI · React · Google Gemini · FAISS · FLUX
         </div>
         <a href="https://github.com/siddhant-17-codes/VisionaryX-2.0"
