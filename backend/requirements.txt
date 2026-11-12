@@ -131,8 +131,7 @@ multidict==7.2.1
     #   yarl
 mypy-extensions==1.1.0
     # via typing-inspect
-numpy==2.5.4
-    # via
+numpy==1.26.4    # via
     #   faiss-cpu
     #   langchain-community
 orjson==3.13.0 ; platform_python_implementation != 'PyPy'
